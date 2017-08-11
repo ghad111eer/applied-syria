@@ -1,0 +1,184 @@
+<html dir="rtl">
+<head>
+<title>Sections</title>
+<meta charset="utf-8">
+<style>
+body {background:url("bg_im.jpg") repeat fixed}
+#h_table {float:left;
+margin-top:80px;}
+#logo_im {width:500px;
+heigh:100px;
+float:right}
+A:link {color:green;
+text-decoration:none} 
+h3 {color:white}
+</style>
+</head>
+<body>
+<BASEFONT color="white">
+<img id="logo_im" src="logo.png" alt="Cannot Load Image!">
+<table id="h_table" cellpadding="15" cellspacing="10">
+<th bgcolor="yellow"><a href="main.html"><font size="20">الرئيسية</font></a></th>
+<th bgcolor="yellow"><a href="sections.html"><font size="20">الاختصاصات</font></a></th>
+<th bgcolor="white"><a href="register.html"><font size="20">التسجيل في الكلية</font></a></th>
+</table>
+<hr width="100%" heigh="5" color="yellow">
+<br><br>
+
+<center><font size="10" color="aqua">استمارة تسجيل في الكلية التطبيقية - جامعة تشرين</font>
+<br>
+<h3>يرجى تعبئة الاستمارة كاملة بالمعلومات المطلوبة : <h3>
+</center>
+
+<br><br>
+<form action="registering.php" method="post">
+<center>
+<table border="1" bordercolor="yellow">
+
+<tr>
+<td>الاسم والكنية : </td>
+<td>
+<input type="text" size="25" maxlength="25" name="st_name">
+</td>
+</tr>
+
+<tr>
+<td>اسم الأب : </td>
+<td>
+<input type="text" size="25" maxlength="10" name="father_name">
+</td>
+</tr>
+
+<tr>
+<td>اسم الأم : </td>
+<td>
+<input type="text" size="25" maxlength="25" name="mother_name">
+</td>
+</tr>
+
+<tr>
+<td rowspan="2">الجنس : </td>
+<td>
+<input type="radio" name="gender" value="male" checked> ذكر 
+</td>
+</tr>
+<tr>
+<td>
+<input type="radio" name="gender" value="female">  أنثى 
+</td>
+</tr>
+
+<tr>
+<td>تاريخ الميلاد : </td>
+<td>
+<input type="text" size="25" maxlength="10" name="birthdate">
+</td>
+</tr>
+
+<tr>
+<td>المحافظة : </td>
+<td>
+<select size="1" name="city">
+<option value="Damascus" selected>دمشق
+<option value="Aleppo">حلب
+<option value="Homs">حمص
+<option value="Hama">حماة
+<option value="Lattakia">اللاذقية
+<option value="Tartous">طرطوس
+<option value="Edleb">إدلب
+<option value="Alraqqa">الرقة
+<option value="Alhasakah">الحسكة
+<option value="Dair_Alzour">دير الزور
+<option value="Reef_Damascus">ريف دمشق
+<option value="Alqunaytera">القنيطرة
+<option value="Daraa">درعا
+<option value="Alswaydaa">السويداء
+</select>
+</td>
+</tr>
+
+<tr>
+<td rowspan="2">فرع الثانوية : </td>
+<td>
+<input type="radio" name="secondary" value="general" checked> عام 
+</td>
+</tr>
+<tr>
+<td>
+<input type="radio" name="secondary" value="mehani">  مهني 
+</td>
+</tr>
+
+<tr>
+<td>سنة إصدار الشهادة : </td>
+<td>
+<input type="text" size="25" maxlength="4" name="certaficat_year">
+</td>
+</tr>
+
+<tr>
+<td>المجموع النهائي أو النسبة المئوية : </td>
+<td>
+<input type="text" size="25" maxlength="10" name="degree">
+</td>
+</tr>
+
+<tr>
+<td rowspan="2">اللغة الأجنبية : </td>
+<td>
+<input type="radio" name="f_language" value="english" checked> انكليزية 
+</td>
+</tr>
+<tr>
+<td>
+<input type="radio" name="f_language" value="frensh">  فرنسية 
+</td>
+</tr>
+
+<tr>
+<td rowspan="6">الاختصاص المراد التقدم إليه : </td>
+<td>
+<input type="radio" name="specializes" value="computer_t" checked> تقنيات الحاسوب 
+</td>
+</tr>
+<tr>
+<td>
+<input type="radio" name="specializes" value="comunication_t">  تقنيات الاتصالات 
+</td>
+</tr>
+<tr>
+<td>
+<input type="radio" name="specializes" value="electrical">  تغذية كهربائية للمنشآت والمدن 
+</td>
+</tr>
+<tr>
+<td>
+<input type="radio" name="specializes" value="vichle_mech">  ميكانيك مركبات 
+</td>
+</tr>
+<tr>
+<td>
+<input type="radio" name="specializes" value="mechanical_made">  تصنيع ميكانيكي 
+</td>
+</tr>
+<tr>
+<td>
+<input type="radio" name="specializes" value="warm_cool">  تدفئة وتبريد وتكييف 
+</td>
+</tr>
+
+<tr><td>
+<input type="reset" value="إعادة إدخال">
+</td>
+<td>
+<input type="submit" value="تقديم">
+</td></tr>
+
+</table>
+</center>
+</form>
+<br><br><br>
+
+</body>
+</html>
+
